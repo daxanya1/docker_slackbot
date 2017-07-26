@@ -13,6 +13,7 @@ RUN apk --no-cache update && \
     rm -rf /var/cache/apk/* && \
     pip3 install slackbot && \
     mkdir -p /opt/slackbot/plugins
+# for DEBUG
 # RUN apk --no-cache add python curl groff less && \
 #     pip --no-cache-dir install awscli && \
 #     rm -rf /var/cache/apk/*
